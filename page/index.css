@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(pexels-pixabay-247676.jpg);
+  background-position: center;
+  background-size: 96rem;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+#greet1 {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.header {
+  height: 4rem;
+  width: 100vw;
+  background: rgb(40, 40, 40);
+  display: flex;
+}
+.footer {
+  height: 3rem;
+  position: absolute;
+  top: 779px;
+  width: 100vw;
+  background: rgb(40, 40, 40);
+}
+#greet {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 10rem;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#in1 {
+  height: 2rem;
+  width: 18rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  padding-left: 11px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: rgba(255, 255, 255, 0.628);
+}
+#in2 {
+  height: 2rem;
+  width: 18rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  padding-left: 11px;
+  margin-top: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: rgba(255, 255, 255, 0.628);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.l2 {
+  position: relative;
+  top: 65px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.l1 {
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+#forPas {
+  color: black;
+  text-decoration: none;
+  margin-top: 1.5rem;
+  font-size: 16px;
+  margin-right: 11rem;
+  color: white;
+}
+
+.head1:hover {
+  text-decoration: underline;
+  color: dodgerblue;
+}
+
+.head1 {
+  margin-right: 2rem;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 63rem;
+  top: 14px;
+  font-size: 21px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#namee {
+  padding-top: 10px;
+  color: white;
+  padding-left: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+#forPas:hover {
+  color: rgba(0, 128, 0, 0.928);
+  text-decoration: underline;
+}
+#f1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sbBtn {
+  margin-top: 2rem;
+  height: 2rem;
+  width: 5rem;
+  font-size: 17px;
+  border-radius: 1.5rem;
+  border: 1px solid black;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.logBtn{
+  height: 2rem;
+  width: 6rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  position: relative;
+  left: 80rem;
+  top: 1rem;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+}
+.SignBtn{
+  height: 2rem;
+  width: 6rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  position: relative;
+  left: 82rem;
+  top: 1rem;
+}
